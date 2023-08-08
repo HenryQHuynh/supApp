@@ -15,12 +15,130 @@
          <!-- app header -->
          <div class="app-header">
             <h2 class="app-header-title">Super<span>Hero</span></h2>
-            <form action="#" class="app-header-search">
-               <input type="text" class="form-control" placeholder="Search for your superhero here ..." name="search">
+            <form class="app-header-search">
+               <input type="text" class="form-control" placeholder="Search for superheros here ..." name="search">
                <button type="submit" class="search-btn">
                   <i class="fas fa-search"></i>
                </button>
+               <div class="search-list" id="search-list">
+                  <!-- <img src="assets/images/batman-wallpaper.jpg" alt="">
+                  <p>Batman</p> -->
+               </div>
             </form>
+         </div>
+         <!-- End of App Header -->
+
+         <div class="app-body">
+            <div class="app-body-content">
+               <!-- app body thumbnail -->
+               <div class="app-body-content-thumbnail">
+                  <img src="assets/images/batman-wallpaper.jpg" alt="">
+               </div>
+               <!-- end of app body thumbnail -->
+
+               <div class="app-body-content-list">
+                  <div class="name">Batman</div>
+
+                  <!-- tab heads -->
+                  <div class="app-body-tabs-head">
+                     <button type="button" class="tab-head-single" data-id="1">
+                        <span>powerstats</span>
+                     </button>
+                     <button type="button" class="tab-head-single" data-id="2">
+                        <span>biography</span>
+                     </button>
+                     <button type="button" class="tab-head-single" data-id="3">
+                        <span>appearance</span>
+                     </button>
+                     <button type="button" class="tab-head-single" data-id="4">
+                        <span>connections</span>
+                     </button>
+                  </div>
+                  <!-- end of tab heads -->
+
+                  <!-- tab body -->
+
+                  <div class="app-body-tabs-body">
+                     <!-- powerstats tab -->
+                     <ul class="tab-body-single powerstats">
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Intelligence</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Strength</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Speed</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Durability</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Power</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                        <li>
+                           <div>
+                              <i class="fa-solid fa-shield-halved"></i>
+                              <span>Combat</span>
+                           </div>
+                           <span>100</span>
+                        </li>
+                     </ul>
+                     <!-- end of powerstats tab -->
+
+                     <!-- biography tab -->
+                     <ul class="tab-body-single biography">
+                        <li>
+                           <span>full name</span>
+                           <span>Terrence McGinnis</span>
+                        </li>
+                        <li>
+                           <span>Alter-Egos</span>
+                           <span>Batman</span>
+                        </li>
+                        <li>
+                           <span>Aliases</span>
+                           <span>Batman Beyond, The Tomorrow Knight, Tiny Terry</span>
+                        </li>
+                        <li>
+                           <span>Place of Birth</span>
+                           <span>Gotham City, 21st Century</span>
+                        </li>
+                        <li>
+                           <span>First appearance</span>
+                           <span>Batman Beyond #1</span>
+                        </li>
+                        <li>
+                           <span>Publisher</span>
+                           <span>DC Comics</span>
+                        </li>
+                     </ul>
+                     <!-- end of biography tab -->
+                  </div>
+
+                  <!-- end of tab body -->
+               </div>
+            </div>
          </div>
       </div>
    </div>
