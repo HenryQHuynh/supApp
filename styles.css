@@ -126,3 +126,10 @@ img {
    width: 50px;
    margin-right: 2rem;
 }
+
+.search-list-item p {
+   font-weight: 700;
+   cursor: pointer;
+}
+
+/* App Body */
