@@ -61,3 +61,68 @@ img {
    color: var(--light-color);
    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.5);
 }
+
+.app-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.app-header-title span {
+   color: var(--red-color);
+}
+
+.app-header-search {
+   border: 2px solid var(--grey-color);
+   border-radius: 3rem;
+   padding: 1rem 2rem;
+   position: relative;
+}
+
+.app-header-search .form-control {
+   min-width: 420px;
+   color: #fff;
+}
+
+.app-header-search .search-btn {
+   color: var(--grey-color);
+   font-size: 2.3rem;
+   cursor: pointer;
+}
+
+/* Search List */
+.search-list {
+   z-index: 10;
+   position: absolute;
+   top: calc(100% + 1rem);
+   left: 0;
+   background-color: var(--light-color);
+   width: 100%;
+   max-height: 400px;
+   overflow-y: scroll;
+}
+
+.search-list::-webkit-scrollbar {
+   width: 7px;
+}
+
+.search-list::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.search-list::-webkit-scrollbar-thumb {
+   background-color: var(--red-color);
+   border-radius: 6px;
+}
+
+.search-list-item {
+   display: flex;
+   align-items: center;
+   background-color: var(--dark-color);
+   padding: 0.4rem 0;
+}
+
+.search-list-item img {
+   width: 50px;
+   margin-right: 2rem;
+}
